@@ -1,0 +1,6 @@
+framework module Pods_TBToolCategory_Tests {
+  umbrella header "Pods-TBToolCategory_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

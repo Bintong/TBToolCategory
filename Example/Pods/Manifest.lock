@@ -1,0 +1,16 @@
+PODS:
+  - TBToolCategory (0.1.0)
+
+DEPENDENCIES:
+  - TBToolCategory (from `../`)
+
+EXTERNAL SOURCES:
+  TBToolCategory:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  TBToolCategory: 581db39737f978746edf3bbc7ecc1240efaa23ae
+
+PODFILE CHECKSUM: e0429ebffe00694d254f5a21a262da080856af07
+
+COCOAPODS: 1.7.0

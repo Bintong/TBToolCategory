@@ -1,0 +1,22 @@
+{
+  "name": "TBToolCategory",
+  "version": "0.1.0",
+  "summary": "A short description of TBToolCategory.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/https://github.com/Bintong/TBCoreAnimation.git/TBToolCategory",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "https://github.com/Bintong/TBCoreAnimation.git": "tongbin@oneship.cc"
+  },
+  "source": {
+    "git": "https://github.com/https://github.com/Bintong/TBCoreAnimation.git/TBToolCategory.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "TBToolCategory/Classes/**/*"
+}
