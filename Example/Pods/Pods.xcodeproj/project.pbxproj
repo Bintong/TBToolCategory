@@ -31,6 +31,10 @@
 		A63CDFCE22CED86C00F1A9AA /* UIImage+BMWAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = A63CDFBC22CED86C00F1A9AA /* UIImage+BMWAdd.h */; };
 		A63CDFCF22CED86C00F1A9AA /* WPCommonDefine.h in Headers */ = {isa = PBXBuildFile; fileRef = A63CDFBD22CED86C00F1A9AA /* WPCommonDefine.h */; };
 		A63CDFD022CED86C00F1A9AA /* LMCheckObject.h in Headers */ = {isa = PBXBuildFile; fileRef = A63CDFBE22CED86C00F1A9AA /* LMCheckObject.h */; };
+		A691046022D2CA8900F1DE31 /* TZDateFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = A691045C22D2CA8900F1DE31 /* TZDateFormatter.h */; };
+		A691046122D2CA8900F1DE31 /* NSDate+TZDateString.h in Headers */ = {isa = PBXBuildFile; fileRef = A691045D22D2CA8900F1DE31 /* NSDate+TZDateString.h */; };
+		A691046222D2CA8900F1DE31 /* NSDate+TZDateString.m in Sources */ = {isa = PBXBuildFile; fileRef = A691045E22D2CA8900F1DE31 /* NSDate+TZDateString.m */; };
+		A691046322D2CA8900F1DE31 /* TZDateFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = A691045F22D2CA8900F1DE31 /* TZDateFormatter.m */; };
 		A6CF7F7B4F9690F2F46C00BBC7846E02 /* Pods-TBToolCategory_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CC0390D229C40B1B9D28312CD025BCEC /* Pods-TBToolCategory_Example-dummy.m */; };
 		E12FFE7B150964A5A493FEB6739401A5 /* Pods-TBToolCategory_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 92F227A2823BFBC4F2D04D7B62A09179 /* Pods-TBToolCategory_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E94CD0C602580724F367269C2735EAE4 /* Pods-TBToolCategory_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0736804E2A321AF5D12F8FBE7D16DDB7 /* Pods-TBToolCategory_Tests-dummy.m */; };
@@ -92,6 +96,10 @@
 		A63CDFBC22CED86C00F1A9AA /* UIImage+BMWAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImage+BMWAdd.h"; path = "TBToolCategory/Classes/UIImage+BMWAdd.h"; sourceTree = "<group>"; };
 		A63CDFBD22CED86C00F1A9AA /* WPCommonDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WPCommonDefine.h; path = TBToolCategory/Classes/WPCommonDefine.h; sourceTree = "<group>"; };
 		A63CDFBE22CED86C00F1A9AA /* LMCheckObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LMCheckObject.h; path = TBToolCategory/Classes/LMCheckObject.h; sourceTree = "<group>"; };
+		A691045C22D2CA8900F1DE31 /* TZDateFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TZDateFormatter.h; path = TBToolCategory/Classes/TZDateFormatter.h; sourceTree = "<group>"; };
+		A691045D22D2CA8900F1DE31 /* NSDate+TZDateString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSDate+TZDateString.h"; path = "TBToolCategory/Classes/NSDate+TZDateString.h"; sourceTree = "<group>"; };
+		A691045E22D2CA8900F1DE31 /* NSDate+TZDateString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSDate+TZDateString.m"; path = "TBToolCategory/Classes/NSDate+TZDateString.m"; sourceTree = "<group>"; };
+		A691045F22D2CA8900F1DE31 /* TZDateFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TZDateFormatter.m; path = TBToolCategory/Classes/TZDateFormatter.m; sourceTree = "<group>"; };
 		A74967BACE522045FE222BD9BB27E579 /* Pods-TBToolCategory_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TBToolCategory_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		AE7E7E7105A20791E22159E37192C957 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		B17C94E9A1236DDC8F0024A8B0131F5F /* TBToolCategory.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TBToolCategory.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -230,6 +238,10 @@
 		CF3A42E36AF393417934D2B6EE4C8E1A /* TBToolCategory */ = {
 			isa = PBXGroup;
 			children = (
+				A691045D22D2CA8900F1DE31 /* NSDate+TZDateString.h */,
+				A691045E22D2CA8900F1DE31 /* NSDate+TZDateString.m */,
+				A691045C22D2CA8900F1DE31 /* TZDateFormatter.h */,
+				A691045F22D2CA8900F1DE31 /* TZDateFormatter.m */,
 				A63CDFB822CED86B00F1A9AA /* BMWPCategory.h */,
 				A63CDFBE22CED86C00F1A9AA /* LMCheckObject.h */,
 				A63CDFB722CED86B00F1A9AA /* LMCheckObject.m */,
@@ -288,12 +300,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				A63CDFC122CED86C00F1A9AA /* NSDictionary+LMSafeObjectForKey.h in Headers */,
+				A691046122D2CA8900F1DE31 /* NSDate+TZDateString.h in Headers */,
 				A63CDFC022CED86C00F1A9AA /* UIView+BMWDrawLine.h in Headers */,
 				A63CDFC622CED86C00F1A9AA /* UILabel+WPAdd.h in Headers */,
 				16F07561B2FD4810CB8E7E6B7406FD67 /* Pods-TBToolCategory_Example-umbrella.h in Headers */,
 				A63CDFC822CED86C00F1A9AA /* UIColor+Hex.h in Headers */,
 				A63CDFC722CED86C00F1A9AA /* WPHUDHelper.h in Headers */,
 				A63CDFCC22CED86C00F1A9AA /* UIView+BMWCoordinate.h in Headers */,
+				A691046022D2CA8900F1DE31 /* TZDateFormatter.h in Headers */,
 				A63CDFD022CED86C00F1A9AA /* LMCheckObject.h in Headers */,
 				A63CDFCF22CED86C00F1A9AA /* WPCommonDefine.h in Headers */,
 				A63CDFCE22CED86C00F1A9AA /* UIImage+BMWAdd.h in Headers */,
@@ -430,9 +444,11 @@
 				A6CF7F7B4F9690F2F46C00BBC7846E02 /* Pods-TBToolCategory_Example-dummy.m in Sources */,
 				A63CDFBF22CED86C00F1A9AA /* UILabel+WPAdd.m in Sources */,
 				A63CDFC222CED86C00F1A9AA /* UIImage+BMWAdd.m in Sources */,
+				A691046222D2CA8900F1DE31 /* NSDate+TZDateString.m in Sources */,
 				A63CDFC322CED86C00F1A9AA /* UIView+BMWCoordinate.m in Sources */,
 				A63CDFCB22CED86C00F1A9AA /* UIColor+Hex.m in Sources */,
 				A63CDFC422CED86C00F1A9AA /* UIView+BMWDrawLine.m in Sources */,
+				A691046322D2CA8900F1DE31 /* TZDateFormatter.m in Sources */,
 				A63CDFC922CED86C00F1A9AA /* LMCheckObject.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
