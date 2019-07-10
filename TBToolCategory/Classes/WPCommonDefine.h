@@ -69,6 +69,11 @@
 #define kScreenWidth  ScreenWidth
 #define kScreenHeight ScreenHeight
 
+#define SCREEN_WIDTH  ScreenWidth
+#define SCREEN_HEIGHT ScreenHeight
+
+
+
 
 #ifdef DEBUG
 #define NSLog(s, ...)                   NSLog(@"<%@(%d)> %@", [[NSString stringWithUTF8String:__FILE__] lastPathComponent], __LINE__, [NSString stringWithFormat:(s), ## __VA_ARGS__])
