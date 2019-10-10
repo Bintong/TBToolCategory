@@ -13,5 +13,6 @@
 + (UIImage *)imageWithView:(UIView *)view;
 - (UIImage *)scaleImageToScale:(CGFloat)scaleSize;
 - (UIImage *)scaleImageSize:(CGSize)size;
++ (UIImage *)imageFromColor:(UIColor *)customColor imageSize:(CGSize)imageSize;
 
 @end
