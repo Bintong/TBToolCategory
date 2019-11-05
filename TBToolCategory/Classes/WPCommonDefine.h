@@ -54,7 +54,6 @@
 // 判断iPhone5系列
 #define kiPhone5 ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(640, 1136), [[UIScreen mainScreen] currentMode].size) && !isPad : NO)
 
-
 // 加载图片
 #define IMAGE(NAME)          [UIImage imageNamed:(NAME)]
 
