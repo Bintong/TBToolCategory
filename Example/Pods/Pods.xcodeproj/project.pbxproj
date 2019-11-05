@@ -13,28 +13,28 @@
 		23ABE2C2E0EBA00ACAB17364C8F6FB5A /* TBToolCategory-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B79ED6A11CDFBE08E524846EFC44EF6C /* TBToolCategory-dummy.m */; };
 		44BA33E3A33588E8DBA2D2EC6B7BEDE0 /* TBToolCategory-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A14300C0B86EB0F29072397B7C6E0BB /* TBToolCategory-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9E4DDA1BECAD92D97AF8479548BE2FB2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		A63CDFBF22CED86C00F1A9AA /* UILabel+WPAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = A63CDFAD22CED86B00F1A9AA /* UILabel+WPAdd.m */; };
-		A63CDFC022CED86C00F1A9AA /* UIView+BMWDrawLine.h in Headers */ = {isa = PBXBuildFile; fileRef = A63CDFAE22CED86B00F1A9AA /* UIView+BMWDrawLine.h */; };
-		A63CDFC122CED86C00F1A9AA /* NSDictionary+LMSafeObjectForKey.h in Headers */ = {isa = PBXBuildFile; fileRef = A63CDFAF22CED86B00F1A9AA /* NSDictionary+LMSafeObjectForKey.h */; };
-		A63CDFC222CED86C00F1A9AA /* UIImage+BMWAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = A63CDFB022CED86B00F1A9AA /* UIImage+BMWAdd.m */; };
-		A63CDFC322CED86C00F1A9AA /* UIView+BMWCoordinate.m in Sources */ = {isa = PBXBuildFile; fileRef = A63CDFB122CED86B00F1A9AA /* UIView+BMWCoordinate.m */; };
-		A63CDFC422CED86C00F1A9AA /* UIView+BMWDrawLine.m in Sources */ = {isa = PBXBuildFile; fileRef = A63CDFB222CED86B00F1A9AA /* UIView+BMWDrawLine.m */; };
 		A63CDFC522CED86C00F1A9AA /* WPHUDHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = A63CDFB322CED86B00F1A9AA /* WPHUDHelper.m */; };
-		A63CDFC622CED86C00F1A9AA /* UILabel+WPAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = A63CDFB422CED86B00F1A9AA /* UILabel+WPAdd.h */; };
 		A63CDFC722CED86C00F1A9AA /* WPHUDHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = A63CDFB522CED86B00F1A9AA /* WPHUDHelper.h */; };
-		A63CDFC822CED86C00F1A9AA /* UIColor+Hex.h in Headers */ = {isa = PBXBuildFile; fileRef = A63CDFB622CED86B00F1A9AA /* UIColor+Hex.h */; };
 		A63CDFC922CED86C00F1A9AA /* LMCheckObject.m in Sources */ = {isa = PBXBuildFile; fileRef = A63CDFB722CED86B00F1A9AA /* LMCheckObject.m */; };
 		A63CDFCA22CED86C00F1A9AA /* BMWPCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = A63CDFB822CED86B00F1A9AA /* BMWPCategory.h */; };
-		A63CDFCB22CED86C00F1A9AA /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = A63CDFB922CED86B00F1A9AA /* UIColor+Hex.m */; };
-		A63CDFCC22CED86C00F1A9AA /* UIView+BMWCoordinate.h in Headers */ = {isa = PBXBuildFile; fileRef = A63CDFBA22CED86C00F1A9AA /* UIView+BMWCoordinate.h */; };
-		A63CDFCD22CED86C00F1A9AA /* NSDictionary+LMSafeObjectForKey.m in Sources */ = {isa = PBXBuildFile; fileRef = A63CDFBB22CED86C00F1A9AA /* NSDictionary+LMSafeObjectForKey.m */; };
-		A63CDFCE22CED86C00F1A9AA /* UIImage+BMWAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = A63CDFBC22CED86C00F1A9AA /* UIImage+BMWAdd.h */; };
 		A63CDFCF22CED86C00F1A9AA /* WPCommonDefine.h in Headers */ = {isa = PBXBuildFile; fileRef = A63CDFBD22CED86C00F1A9AA /* WPCommonDefine.h */; };
 		A63CDFD022CED86C00F1A9AA /* LMCheckObject.h in Headers */ = {isa = PBXBuildFile; fileRef = A63CDFBE22CED86C00F1A9AA /* LMCheckObject.h */; };
 		A691046022D2CA8900F1DE31 /* TZDateFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = A691045C22D2CA8900F1DE31 /* TZDateFormatter.h */; };
-		A691046122D2CA8900F1DE31 /* NSDate+TZDateString.h in Headers */ = {isa = PBXBuildFile; fileRef = A691045D22D2CA8900F1DE31 /* NSDate+TZDateString.h */; };
-		A691046222D2CA8900F1DE31 /* NSDate+TZDateString.m in Sources */ = {isa = PBXBuildFile; fileRef = A691045E22D2CA8900F1DE31 /* NSDate+TZDateString.m */; };
 		A691046322D2CA8900F1DE31 /* TZDateFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = A691045F22D2CA8900F1DE31 /* TZDateFormatter.m */; };
+		A6B4F5252371DAEE006F89C1 /* NSDate+TZDateString.h in Headers */ = {isa = PBXBuildFile; fileRef = A691045D22D2CA8900F1DE31 /* NSDate+TZDateString.h */; };
+		A6B4F5262371DAEE006F89C1 /* NSDate+TZDateString.m in Sources */ = {isa = PBXBuildFile; fileRef = A691045E22D2CA8900F1DE31 /* NSDate+TZDateString.m */; };
+		A6B4F5272371DAEE006F89C1 /* NSDictionary+LMSafeObjectForKey.h in Headers */ = {isa = PBXBuildFile; fileRef = A63CDFAF22CED86B00F1A9AA /* NSDictionary+LMSafeObjectForKey.h */; };
+		A6B4F5282371DAEE006F89C1 /* NSDictionary+LMSafeObjectForKey.m in Sources */ = {isa = PBXBuildFile; fileRef = A63CDFBB22CED86C00F1A9AA /* NSDictionary+LMSafeObjectForKey.m */; };
+		A6B4F5292371DAEE006F89C1 /* UIColor+Hex.h in Headers */ = {isa = PBXBuildFile; fileRef = A63CDFB622CED86B00F1A9AA /* UIColor+Hex.h */; };
+		A6B4F52A2371DAEE006F89C1 /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = A63CDFB922CED86B00F1A9AA /* UIColor+Hex.m */; };
+		A6B4F52B2371DAEE006F89C1 /* UIImage+BMWAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = A63CDFBC22CED86C00F1A9AA /* UIImage+BMWAdd.h */; };
+		A6B4F52C2371DAEE006F89C1 /* UIImage+BMWAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = A63CDFB022CED86B00F1A9AA /* UIImage+BMWAdd.m */; };
+		A6B4F52D2371DAEE006F89C1 /* UILabel+WPAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = A63CDFB422CED86B00F1A9AA /* UILabel+WPAdd.h */; };
+		A6B4F52E2371DAEE006F89C1 /* UILabel+WPAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = A63CDFAD22CED86B00F1A9AA /* UILabel+WPAdd.m */; };
+		A6B4F52F2371DAEE006F89C1 /* UIView+BMWCoordinate.h in Headers */ = {isa = PBXBuildFile; fileRef = A63CDFBA22CED86C00F1A9AA /* UIView+BMWCoordinate.h */; };
+		A6B4F5302371DAEE006F89C1 /* UIView+BMWCoordinate.m in Sources */ = {isa = PBXBuildFile; fileRef = A63CDFB122CED86B00F1A9AA /* UIView+BMWCoordinate.m */; };
+		A6B4F5312371DAEE006F89C1 /* UIView+BMWDrawLine.h in Headers */ = {isa = PBXBuildFile; fileRef = A63CDFAE22CED86B00F1A9AA /* UIView+BMWDrawLine.h */; };
+		A6B4F5322371DAEE006F89C1 /* UIView+BMWDrawLine.m in Sources */ = {isa = PBXBuildFile; fileRef = A63CDFB222CED86B00F1A9AA /* UIView+BMWDrawLine.m */; };
 		A6CF7F7B4F9690F2F46C00BBC7846E02 /* Pods-TBToolCategory_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CC0390D229C40B1B9D28312CD025BCEC /* Pods-TBToolCategory_Example-dummy.m */; };
 		E12FFE7B150964A5A493FEB6739401A5 /* Pods-TBToolCategory_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 92F227A2823BFBC4F2D04D7B62A09179 /* Pods-TBToolCategory_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E94CD0C602580724F367269C2735EAE4 /* Pods-TBToolCategory_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0736804E2A321AF5D12F8FBE7D16DDB7 /* Pods-TBToolCategory_Tests-dummy.m */; };
@@ -78,28 +78,28 @@
 		92F227A2823BFBC4F2D04D7B62A09179 /* Pods-TBToolCategory_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TBToolCategory_Tests-umbrella.h"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A1F31EA19C7F6818C0ADE94DEE82DCF1 /* Pods-TBToolCategory_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TBToolCategory_Example.modulemap"; sourceTree = "<group>"; };
-		A63CDFAD22CED86B00F1A9AA /* UILabel+WPAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UILabel+WPAdd.m"; path = "TBToolCategory/Classes/UILabel+WPAdd.m"; sourceTree = "<group>"; };
-		A63CDFAE22CED86B00F1A9AA /* UIView+BMWDrawLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+BMWDrawLine.h"; path = "TBToolCategory/Classes/UIView+BMWDrawLine.h"; sourceTree = "<group>"; };
-		A63CDFAF22CED86B00F1A9AA /* NSDictionary+LMSafeObjectForKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+LMSafeObjectForKey.h"; path = "TBToolCategory/Classes/NSDictionary+LMSafeObjectForKey.h"; sourceTree = "<group>"; };
-		A63CDFB022CED86B00F1A9AA /* UIImage+BMWAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImage+BMWAdd.m"; path = "TBToolCategory/Classes/UIImage+BMWAdd.m"; sourceTree = "<group>"; };
-		A63CDFB122CED86B00F1A9AA /* UIView+BMWCoordinate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+BMWCoordinate.m"; path = "TBToolCategory/Classes/UIView+BMWCoordinate.m"; sourceTree = "<group>"; };
-		A63CDFB222CED86B00F1A9AA /* UIView+BMWDrawLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+BMWDrawLine.m"; path = "TBToolCategory/Classes/UIView+BMWDrawLine.m"; sourceTree = "<group>"; };
-		A63CDFB322CED86B00F1A9AA /* WPHUDHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WPHUDHelper.m; path = TBToolCategory/Classes/WPHUDHelper.m; sourceTree = "<group>"; };
-		A63CDFB422CED86B00F1A9AA /* UILabel+WPAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UILabel+WPAdd.h"; path = "TBToolCategory/Classes/UILabel+WPAdd.h"; sourceTree = "<group>"; };
-		A63CDFB522CED86B00F1A9AA /* WPHUDHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WPHUDHelper.h; path = TBToolCategory/Classes/WPHUDHelper.h; sourceTree = "<group>"; };
-		A63CDFB622CED86B00F1A9AA /* UIColor+Hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIColor+Hex.h"; path = "TBToolCategory/Classes/UIColor+Hex.h"; sourceTree = "<group>"; };
-		A63CDFB722CED86B00F1A9AA /* LMCheckObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LMCheckObject.m; path = TBToolCategory/Classes/LMCheckObject.m; sourceTree = "<group>"; };
+		A63CDFAD22CED86B00F1A9AA /* UILabel+WPAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+WPAdd.m"; sourceTree = "<group>"; };
+		A63CDFAE22CED86B00F1A9AA /* UIView+BMWDrawLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+BMWDrawLine.h"; sourceTree = "<group>"; };
+		A63CDFAF22CED86B00F1A9AA /* NSDictionary+LMSafeObjectForKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+LMSafeObjectForKey.h"; sourceTree = "<group>"; };
+		A63CDFB022CED86B00F1A9AA /* UIImage+BMWAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+BMWAdd.m"; sourceTree = "<group>"; };
+		A63CDFB122CED86B00F1A9AA /* UIView+BMWCoordinate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+BMWCoordinate.m"; sourceTree = "<group>"; };
+		A63CDFB222CED86B00F1A9AA /* UIView+BMWDrawLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+BMWDrawLine.m"; sourceTree = "<group>"; };
+		A63CDFB322CED86B00F1A9AA /* WPHUDHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WPHUDHelper.m; sourceTree = "<group>"; };
+		A63CDFB422CED86B00F1A9AA /* UILabel+WPAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+WPAdd.h"; sourceTree = "<group>"; };
+		A63CDFB522CED86B00F1A9AA /* WPHUDHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WPHUDHelper.h; sourceTree = "<group>"; };
+		A63CDFB622CED86B00F1A9AA /* UIColor+Hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Hex.h"; sourceTree = "<group>"; };
+		A63CDFB722CED86B00F1A9AA /* LMCheckObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMCheckObject.m; sourceTree = "<group>"; };
 		A63CDFB822CED86B00F1A9AA /* BMWPCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BMWPCategory.h; path = TBToolCategory/Classes/BMWPCategory.h; sourceTree = "<group>"; };
-		A63CDFB922CED86B00F1A9AA /* UIColor+Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIColor+Hex.m"; path = "TBToolCategory/Classes/UIColor+Hex.m"; sourceTree = "<group>"; };
-		A63CDFBA22CED86C00F1A9AA /* UIView+BMWCoordinate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+BMWCoordinate.h"; path = "TBToolCategory/Classes/UIView+BMWCoordinate.h"; sourceTree = "<group>"; };
-		A63CDFBB22CED86C00F1A9AA /* NSDictionary+LMSafeObjectForKey.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+LMSafeObjectForKey.m"; path = "TBToolCategory/Classes/NSDictionary+LMSafeObjectForKey.m"; sourceTree = "<group>"; };
-		A63CDFBC22CED86C00F1A9AA /* UIImage+BMWAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImage+BMWAdd.h"; path = "TBToolCategory/Classes/UIImage+BMWAdd.h"; sourceTree = "<group>"; };
+		A63CDFB922CED86B00F1A9AA /* UIColor+Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Hex.m"; sourceTree = "<group>"; };
+		A63CDFBA22CED86C00F1A9AA /* UIView+BMWCoordinate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+BMWCoordinate.h"; sourceTree = "<group>"; };
+		A63CDFBB22CED86C00F1A9AA /* NSDictionary+LMSafeObjectForKey.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+LMSafeObjectForKey.m"; sourceTree = "<group>"; };
+		A63CDFBC22CED86C00F1A9AA /* UIImage+BMWAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+BMWAdd.h"; sourceTree = "<group>"; };
 		A63CDFBD22CED86C00F1A9AA /* WPCommonDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WPCommonDefine.h; path = TBToolCategory/Classes/WPCommonDefine.h; sourceTree = "<group>"; };
-		A63CDFBE22CED86C00F1A9AA /* LMCheckObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LMCheckObject.h; path = TBToolCategory/Classes/LMCheckObject.h; sourceTree = "<group>"; };
-		A691045C22D2CA8900F1DE31 /* TZDateFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TZDateFormatter.h; path = TBToolCategory/Classes/TZDateFormatter.h; sourceTree = "<group>"; };
-		A691045D22D2CA8900F1DE31 /* NSDate+TZDateString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSDate+TZDateString.h"; path = "TBToolCategory/Classes/NSDate+TZDateString.h"; sourceTree = "<group>"; };
-		A691045E22D2CA8900F1DE31 /* NSDate+TZDateString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSDate+TZDateString.m"; path = "TBToolCategory/Classes/NSDate+TZDateString.m"; sourceTree = "<group>"; };
-		A691045F22D2CA8900F1DE31 /* TZDateFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TZDateFormatter.m; path = TBToolCategory/Classes/TZDateFormatter.m; sourceTree = "<group>"; };
+		A63CDFBE22CED86C00F1A9AA /* LMCheckObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMCheckObject.h; sourceTree = "<group>"; };
+		A691045C22D2CA8900F1DE31 /* TZDateFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZDateFormatter.h; sourceTree = "<group>"; };
+		A691045D22D2CA8900F1DE31 /* NSDate+TZDateString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+TZDateString.h"; sourceTree = "<group>"; };
+		A691045E22D2CA8900F1DE31 /* NSDate+TZDateString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+TZDateString.m"; sourceTree = "<group>"; };
+		A691045F22D2CA8900F1DE31 /* TZDateFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZDateFormatter.m; sourceTree = "<group>"; };
 		A74967BACE522045FE222BD9BB27E579 /* Pods-TBToolCategory_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TBToolCategory_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		AE7E7E7105A20791E22159E37192C957 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		B17C94E9A1236DDC8F0024A8B0131F5F /* TBToolCategory.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TBToolCategory.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -202,6 +202,42 @@
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
+		A6B4F5212371DA6F006F89C1 /* category */ = {
+			isa = PBXGroup;
+			children = (
+				A691045D22D2CA8900F1DE31 /* NSDate+TZDateString.h */,
+				A691045E22D2CA8900F1DE31 /* NSDate+TZDateString.m */,
+				A63CDFAF22CED86B00F1A9AA /* NSDictionary+LMSafeObjectForKey.h */,
+				A63CDFBB22CED86C00F1A9AA /* NSDictionary+LMSafeObjectForKey.m */,
+				A63CDFB622CED86B00F1A9AA /* UIColor+Hex.h */,
+				A63CDFB922CED86B00F1A9AA /* UIColor+Hex.m */,
+				A63CDFBC22CED86C00F1A9AA /* UIImage+BMWAdd.h */,
+				A63CDFB022CED86B00F1A9AA /* UIImage+BMWAdd.m */,
+				A63CDFB422CED86B00F1A9AA /* UILabel+WPAdd.h */,
+				A63CDFAD22CED86B00F1A9AA /* UILabel+WPAdd.m */,
+				A63CDFBA22CED86C00F1A9AA /* UIView+BMWCoordinate.h */,
+				A63CDFB122CED86B00F1A9AA /* UIView+BMWCoordinate.m */,
+				A63CDFAE22CED86B00F1A9AA /* UIView+BMWDrawLine.h */,
+				A63CDFB222CED86B00F1A9AA /* UIView+BMWDrawLine.m */,
+			);
+			name = category;
+			path = TBToolCategory/Classes/category;
+			sourceTree = "<group>";
+		};
+		A6B4F5242371DAD5006F89C1 /* tools */ = {
+			isa = PBXGroup;
+			children = (
+				A691045C22D2CA8900F1DE31 /* TZDateFormatter.h */,
+				A691045F22D2CA8900F1DE31 /* TZDateFormatter.m */,
+				A63CDFBE22CED86C00F1A9AA /* LMCheckObject.h */,
+				A63CDFB722CED86B00F1A9AA /* LMCheckObject.m */,
+				A63CDFB522CED86B00F1A9AA /* WPHUDHelper.h */,
+				A63CDFB322CED86B00F1A9AA /* WPHUDHelper.m */,
+			);
+			name = tools;
+			path = TBToolCategory/Classes/tools;
+			sourceTree = "<group>";
+		};
 		B0B178DA62499A5073F5DC3FD4597F17 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -238,28 +274,10 @@
 		CF3A42E36AF393417934D2B6EE4C8E1A /* TBToolCategory */ = {
 			isa = PBXGroup;
 			children = (
-				A691045D22D2CA8900F1DE31 /* NSDate+TZDateString.h */,
-				A691045E22D2CA8900F1DE31 /* NSDate+TZDateString.m */,
-				A691045C22D2CA8900F1DE31 /* TZDateFormatter.h */,
-				A691045F22D2CA8900F1DE31 /* TZDateFormatter.m */,
+				A6B4F5242371DAD5006F89C1 /* tools */,
+				A6B4F5212371DA6F006F89C1 /* category */,
 				A63CDFB822CED86B00F1A9AA /* BMWPCategory.h */,
-				A63CDFBE22CED86C00F1A9AA /* LMCheckObject.h */,
-				A63CDFB722CED86B00F1A9AA /* LMCheckObject.m */,
-				A63CDFAF22CED86B00F1A9AA /* NSDictionary+LMSafeObjectForKey.h */,
-				A63CDFBB22CED86C00F1A9AA /* NSDictionary+LMSafeObjectForKey.m */,
-				A63CDFB622CED86B00F1A9AA /* UIColor+Hex.h */,
-				A63CDFB922CED86B00F1A9AA /* UIColor+Hex.m */,
-				A63CDFBC22CED86C00F1A9AA /* UIImage+BMWAdd.h */,
-				A63CDFB022CED86B00F1A9AA /* UIImage+BMWAdd.m */,
-				A63CDFB422CED86B00F1A9AA /* UILabel+WPAdd.h */,
-				A63CDFAD22CED86B00F1A9AA /* UILabel+WPAdd.m */,
-				A63CDFBA22CED86C00F1A9AA /* UIView+BMWCoordinate.h */,
-				A63CDFB122CED86B00F1A9AA /* UIView+BMWCoordinate.m */,
-				A63CDFAE22CED86B00F1A9AA /* UIView+BMWDrawLine.h */,
-				A63CDFB222CED86B00F1A9AA /* UIView+BMWDrawLine.m */,
 				A63CDFBD22CED86C00F1A9AA /* WPCommonDefine.h */,
-				A63CDFB522CED86B00F1A9AA /* WPHUDHelper.h */,
-				A63CDFB322CED86B00F1A9AA /* WPHUDHelper.m */,
 				58030AF83CEF6BF6C8114D761B2F9626 /* Pod */,
 				B0B178DA62499A5073F5DC3FD4597F17 /* Support Files */,
 			);
@@ -291,6 +309,13 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A6B4F52B2371DAEE006F89C1 /* UIImage+BMWAdd.h in Headers */,
+				A6B4F5292371DAEE006F89C1 /* UIColor+Hex.h in Headers */,
+				A6B4F5312371DAEE006F89C1 /* UIView+BMWDrawLine.h in Headers */,
+				A6B4F52D2371DAEE006F89C1 /* UILabel+WPAdd.h in Headers */,
+				A6B4F5272371DAEE006F89C1 /* NSDictionary+LMSafeObjectForKey.h in Headers */,
+				A6B4F5252371DAEE006F89C1 /* NSDate+TZDateString.h in Headers */,
+				A6B4F52F2371DAEE006F89C1 /* UIView+BMWCoordinate.h in Headers */,
 				44BA33E3A33588E8DBA2D2EC6B7BEDE0 /* TBToolCategory-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -299,18 +324,11 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A63CDFC122CED86C00F1A9AA /* NSDictionary+LMSafeObjectForKey.h in Headers */,
-				A691046122D2CA8900F1DE31 /* NSDate+TZDateString.h in Headers */,
-				A63CDFC022CED86C00F1A9AA /* UIView+BMWDrawLine.h in Headers */,
-				A63CDFC622CED86C00F1A9AA /* UILabel+WPAdd.h in Headers */,
 				16F07561B2FD4810CB8E7E6B7406FD67 /* Pods-TBToolCategory_Example-umbrella.h in Headers */,
-				A63CDFC822CED86C00F1A9AA /* UIColor+Hex.h in Headers */,
 				A63CDFC722CED86C00F1A9AA /* WPHUDHelper.h in Headers */,
-				A63CDFCC22CED86C00F1A9AA /* UIView+BMWCoordinate.h in Headers */,
 				A691046022D2CA8900F1DE31 /* TZDateFormatter.h in Headers */,
 				A63CDFD022CED86C00F1A9AA /* LMCheckObject.h in Headers */,
 				A63CDFCF22CED86C00F1A9AA /* WPCommonDefine.h in Headers */,
-				A63CDFCE22CED86C00F1A9AA /* UIImage+BMWAdd.h in Headers */,
 				A63CDFCA22CED86C00F1A9AA /* BMWPCategory.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -439,15 +457,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A63CDFCD22CED86C00F1A9AA /* NSDictionary+LMSafeObjectForKey.m in Sources */,
 				A63CDFC522CED86C00F1A9AA /* WPHUDHelper.m in Sources */,
 				A6CF7F7B4F9690F2F46C00BBC7846E02 /* Pods-TBToolCategory_Example-dummy.m in Sources */,
-				A63CDFBF22CED86C00F1A9AA /* UILabel+WPAdd.m in Sources */,
-				A63CDFC222CED86C00F1A9AA /* UIImage+BMWAdd.m in Sources */,
-				A691046222D2CA8900F1DE31 /* NSDate+TZDateString.m in Sources */,
-				A63CDFC322CED86C00F1A9AA /* UIView+BMWCoordinate.m in Sources */,
-				A63CDFCB22CED86C00F1A9AA /* UIColor+Hex.m in Sources */,
-				A63CDFC422CED86C00F1A9AA /* UIView+BMWDrawLine.m in Sources */,
 				A691046322D2CA8900F1DE31 /* TZDateFormatter.m in Sources */,
 				A63CDFC922CED86C00F1A9AA /* LMCheckObject.m in Sources */,
 			);
@@ -465,7 +476,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A6B4F52C2371DAEE006F89C1 /* UIImage+BMWAdd.m in Sources */,
+				A6B4F5282371DAEE006F89C1 /* NSDictionary+LMSafeObjectForKey.m in Sources */,
+				A6B4F52A2371DAEE006F89C1 /* UIColor+Hex.m in Sources */,
 				23ABE2C2E0EBA00ACAB17364C8F6FB5A /* TBToolCategory-dummy.m in Sources */,
+				A6B4F5262371DAEE006F89C1 /* NSDate+TZDateString.m in Sources */,
+				A6B4F52E2371DAEE006F89C1 /* UILabel+WPAdd.m in Sources */,
+				A6B4F5302371DAEE006F89C1 /* UIView+BMWCoordinate.m in Sources */,
+				A6B4F5322371DAEE006F89C1 /* UIView+BMWDrawLine.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
